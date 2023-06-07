@@ -1,0 +1,76 @@
+ /* impostazioni generali */
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2vw;
+    background-color: black;
+    color: white
+}
+  
+body > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2vw;
+    color: black;
+    border-color:navy;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+button{
+    border-radius: 5px;
+    border-color: navy;
+    border-style: solid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2vw;
+    padding: 1px 2px;
+    color: royalblue;
+}
+
+/* Imposta il contenitore come flexbox */
+#inputText {
+    display: flex;
+}
+
+/* Allinea orizzontalmente gli elementi */
+#newTask {
+    flex: 5;
+}
+
+#btAddTask {
+    flex: 1;
+    color:black;
+    background-color: green;
+}
+
+
+.divLI {
+    background-color: white;
+    border: 3px solid navy;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+h2{
+    font-weight: normal;
+    color: violet;
+}
+
+h1{
+    font-weight: bolder;
+}
+ /*stile per i task completati */
+ .completed {
+    text-decoration: line-through;
+    font-weight: lighter;
+    color: gray;
+    font-style: italic;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Applicazione Task List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- titolo -->
+    <div id="titolo">
+      <h1>Task List</h1>
+    </div>
+    <!-- Input add task -->
+    <div id="inputText">
+      <input type="text" id="newTask" placeholder="Scrivi il nuovo task" />
+      <button id="btAddTask">Aggiungi Task</button>
+    </div>
+    <br />
+    <!-- Lista dei task non ancora completati-->
+    <div class="divLI">
+      <h2>Task non ancora completati</h2>
+      <ul id="taskList"></ul>
+    </div>
+    <br />
+    <!-- Lista dei task completati -->
+    <div class="divLI">
+      <h2>Task completati</h2>
+      <ul id="completedTaskList"></ul>
+    </div>
+    <!-- footer -->
+    <footer>
+      <h3>&copy; Alessandra Vanessa De Guzman</h3>
+      <p>Esercizio U1-W3-D3</p>
+      <p>Svolto il giorno: 07/06/2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
